@@ -132,6 +132,37 @@ a {
     text-align: center;
 }
 
+/*portfolio*/
+.btn-nav {
+    color: var(--color-link);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+}
+.btn-nav:hover,
+.btn-nav:focus {
+    color: var(--bgd-color);
+    background-color: var(--accent-color);
+}
+.btn-nav,
+.hero-btn {
+    cursor: pointer;
+}
+.portfolio-title {
+    color: var(--color-link);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.portfolio-text {
+    color: var(--primary-color-text);
+    font-size: 16px;
+    line-height: 1.9;
+}
+
 /*footer*/
 
 .footer{
